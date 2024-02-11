@@ -79,7 +79,7 @@ body{
     background-color: #fff;
 }
 
-#nav-part2 #icons span{
+#nav-part2 #icons i{
     font-size: 18px;
     margin:0 20px;
     font-weight: 100;
@@ -168,11 +168,23 @@ body{
 
 .elem .dets{
     height: 50px;
+    top: 50%;
     width: 70%;
     border-radius: 50px;
     position: absolute;
     background-color: pink;
     z-index: 9;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.dets p{
+    font-family: futura;
+    align-items: center;
+    font-size: 3vh;
+    text-align: center;
+    justify-content: center;
 }
 
 .elem .dets:hover{
@@ -224,7 +236,7 @@ body{
     
     #nav #nav-part1 svg{
         display: block;
-        height: 62px;
+        height: 67px;
         width: 80px;
     }
     
@@ -262,9 +274,9 @@ body{
         background-color: #fff;
     }
     
-    #nav-part2 #icons span{
+    #nav-part2 #icons i{
         font-size: 18px;
-        margin:0 20px;
+        margin: 0 20px;
         font-weight: 100;
     }
 

@@ -33,7 +33,7 @@ locoScroll()
 
 function navbarAnimation(){
     gsap.to("#nav-part1 svg",{
-        y:"-100%",
+        transform: 'translateY(-100%)',
         scrollTrigger:{
             trigger:"#page1",
             scroller:"#main",
@@ -50,7 +50,7 @@ function navbarAnimation(){
         scrollTrigger:{
             trigger:"#page1",
             scroller:"#main",
-            markers:true,
+            // markers:true,
             start:"top 0%",
             end: "top -5%",
             scrub:true
